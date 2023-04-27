@@ -1,0 +1,255 @@
+body {
+    margin: auto;
+    padding: 0;
+    font-family: montserrat;
+    box-sizing: border-box;
+    width: 1440px;
+}
+
+nav img {
+    width: 108px;
+    height: 43px;
+    align-items: center;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: black ;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 80px;
+}
+
+.header h1 {
+    font-size: 50px;
+    color: white;
+    margin-left: 80px;
+}
+
+.header {
+    width: 1440;
+    height: 172px;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(0deg, rgba(44, 122, 200, 0.67), rgba(44, 122, 200, 0.67)), url(skyscraper.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.paragraph {
+    width: 60%;
+    margin-left: 80px;
+    display: block;
+    margin-right: 40px;
+}
+
+.info {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.container {
+    display: grid; 
+    align-items: center;  
+}
+
+.container__item:first-of-type {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 2;
+}
+
+.container__item:last-of-type {
+    grid-column: 3 / span 3;
+    grid-row: 2 / span 2;
+}
+
+.container__item img {
+    border: 2px double  rgb(206, 206, 10);;
+    margin-top: 30px;
+    outline: 1px solid rgb(206, 206, 10);
+    outline-offset: -20px;
+}
+
+.team-items img {
+    width: 320px;
+    height: 399px;
+    border-top-right-radius: 20px;
+    position: relative;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.caption {
+    width: 232px;
+    height: 82px;
+    position: relative;
+    background-color: #FFFF;
+    display: block;
+    align-items: center;
+    top: -60px;
+    left: 40px;
+    z-index: 1;
+    text-align: left;
+    box-shadow: 2px 2px 5px white;
+}
+
+.caption p {
+    position: relative;
+    left: 37px;
+}
+
+.caption h3 {
+    position: relative;
+    left: 37px;
+    top: 20px;
+}
+
+.team-container {
+    margin-top: 100px;
+    background-color: #2464A4;
+    padding: 30px;
+}
+
+.clients {
+    display: flex;
+    justify-content: space-around;
+}
+
+.client-item {
+    width: 348px;
+    height: 300px;
+    padding: 36px 45px 36px 45px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    border-top-right-radius: 20px;
+    background: white;
+}
+
+.client-container {
+    background: linear-gradient(90deg, rgba(206, 206, 10, 0.3), rgba(0, 0, 0, .02)  ),url(arrows.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+.quote {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+    background-color: #fdf5df ;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.quote h3 {
+    color:#2464A4;
+}
+
+.quote button {
+    width: 153px;
+    height: 41px;
+    padding: 10px 20px 10px 20px;
+    background-color:rgb(206, 206, 10); ;
+    border-style: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-family: montserrat;
+
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.contact-info-item {
+    width: 25%;
+    height: 300px;
+    margin-left:70px ;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    gap: 600px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+.copyright .img {
+    background: linear-gradient(0deg, rgba(149, 198, 247, 0.3), rgba(149, 198, 247, 0.3)),url(bavaria\ logo.jpg);
+    width: 108px; 
+    height: 43px;
+}
+
+.lastcontainer {
+    background-color: #dbe9f7;
+    margin-top: 70px;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    position: relative;
+    top: -13px;
+}
+
+li i {
+    color: #2464A4;
+}
+
+.cline {
+    width: 70%;
+    height: 1px;
+    background-color: #92BDE7;
+    margin-left: 210px;
+}
+
+.contact-info-item li {
+    margin-top: 40px;
+}
+
+.contact-info-item ul {
+    list-style-type: none;
+}
+
+button:hover {
+    filter: brightness(105%);
+    cursor: pointer;
+    box-shadow: 3px 3px 8px black;
+    transition: all 0.3s ease-in-out;
+}
+
+.lastcontainer button {
+    width: 51px;
+    height: 51px;
+    font-size: 20px;
+    position: relative;
+    top: -230px;
+    left: 1200px;
+    color: #2464A4;
+    border-style: none;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .1);
+}
